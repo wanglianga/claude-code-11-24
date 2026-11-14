@@ -1,0 +1,6 @@
+payee_code,payee_name,payee_type,bank_account,currency
+P-REC-A,RecordCo Alpha,COMPANY,ACC-ALPHA-001,USD
+P-REC-B,RecordCo Beta,COMPANY,ACC-BETA-001,USD
+P-PUB-A,Publisher Gamma,COMPANY,ACC-GAMMA-001,USD
+P-WRITER,Writer Delta,WRITER,ACC-DELTA-001,USD
+P-PUB-B,Publisher Epsilon,COMPANY,ACC-EPSILON-001,USD

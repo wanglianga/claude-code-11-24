@@ -1,0 +1,10 @@
+platform_code,right_type,territory,media,settlement_method,rate_minor,currency,fee_basis,fee_num,fee_den,budget_num,budget_den,valid_from,valid_to
+# PLF-A 按次计费：每次 100 最小货币单位；录音权协议含 10% 平台费用条款（只扣一次），词曲权无费
+PLF-A,RECORDING,GLOBAL,ALL,PER_UNIT,100.000000,USD,PERCENT_OF_GROSS,10,100,1,1,2026-01-01,
+PLF-A,PUBLISHING,GLOBAL,ALL,PER_UNIT,100.000000,USD,NONE,0,1,1,1,2026-01-01,
+# PLF-B 直接报告收入：取已核对净额；录音预算 60%、词曲预算 40%
+PLF-B,RECORDING,GLOBAL,ALL,GROSS_REPORT,,USD,NONE,0,1,60,100,2026-01-01,
+PLF-B,PUBLISHING,GLOBAL,ALL,GROSS_REPORT,,USD,NONE,0,1,40,100,2026-01-01,
+# PLF-C 直接报告收入但只报总额：按 15% 条款扣一次费；预算合计 90%，余 10% 待认领
+PLF-C,RECORDING,GLOBAL,ALL,GROSS_REPORT,,USD,PERCENT_OF_GROSS,15,100,60,100,2026-01-01,
+PLF-C,PUBLISHING,GLOBAL,ALL,GROSS_REPORT,,USD,NONE,0,1,30,100,2026-01-01,

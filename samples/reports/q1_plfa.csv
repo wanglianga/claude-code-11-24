@@ -1,0 +1,9 @@
+#BATCH,REPORT-PLFA-2026Q1,PLF-A,2026-01-01,2026-03-31,7,0,0,0,USD
+platform_line_no,revision_no,supersedes_line_no,platform_item_code,reported_title,reported_artist,reported_duration,usage_date,territory,media,usage_count,gross_minor,fee_minor,net_minor,currency,action
+A-001,1,,PLF-ME-ORIG,Midnight Echo,Delta Moon,210,2026-01-20,GLOBAL,STREAM,100,0,0,0,USD,NORMAL
+A-002,1,,PLF-ME-ORIG,Midnight Echo,Delta Moon,210,2026-03-01,GLOBAL,STREAM,100,0,0,0,USD,NORMAL
+A-003,1,,PLF-ME-LIVE,Midnight Echo Live,Delta Moon,305,2026-02-10,GLOBAL,STREAM,100,0,0,0,USD,NORMAL
+A-004,1,,PLF-SS,Silver Street,Gamma House,198,2026-02-01,GLOBAL,STREAM,100,0,0,0,USD,NORMAL
+A-005,1,,PLF-CT,Cold Tide,Cold Band,240,2026-02-01,GLOBAL,STREAM,100,0,0,0,USD,NORMAL
+A-006,1,,PLF-OT,Over Top,Top Voice,180,2026-02-01,GLOBAL,STREAM,100,0,0,0,USD,NORMAL
+A-007,1,,PLF-NO-MAP,Midnight Echo,Delta Moon,211,2026-02-01,GLOBAL,STREAM,50,0,0,0,USD,NORMAL

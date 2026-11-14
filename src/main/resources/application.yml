@@ -1,0 +1,41 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: royalty-settlement
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:127.0.0.1}:${DB_PORT:5432}/${DB_NAME:ccdev}?currentSchema=${DB_SCHEMA:royalty}
+    username: ${DB_USER:ccdev}
+    password: ${DB_PASSWORD:ccdev}
+    hikari:
+      maximum-pool-size: 8
+  flyway:
+    enabled: true
+    schemas: ${DB_SCHEMA:royalty}
+    default-schema: ${DB_SCHEMA:royalty}
+    create-schemas: true
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+  sql:
+    init:
+      mode: never
+
+app:
+  settlement:
+    segment-size: 200
+  storage:
+    payment-dir: ${PAYMENT_DIR:data/payment-files}
+    receipt-dir: ${RECEIPT_DIR:data/receipts}
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+logging:
+  level:
+    cc.royalty: INFO

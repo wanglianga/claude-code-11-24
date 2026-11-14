@@ -1,0 +1,4 @@
+#BATCH,REPORT-PLFB-CORR,PLF-B,2026-01-01,2026-03-31,2,12000,0,12000,USD
+platform_line_no,revision_no,supersedes_line_no,platform_item_code,reported_title,reported_artist,reported_duration,usage_date,territory,media,usage_count,gross_minor,fee_minor,net_minor,currency,action
+B-001,2,B-001,PLF-ME-ORIG,Midnight Echo,Delta Moon,210,2026-02-20,GLOBAL,STREAM,,12000,0,12000,USD,NORMAL
+B-002,2,B-002,PLF-SS,Silver Street,Gamma House,198,2026-02-20,GLOBAL,STREAM,,0,0,0,USD,REVOKE

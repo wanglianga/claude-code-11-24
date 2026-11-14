@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/ccdev?currentSchema=royalty_test
+    username: ccdev
+    password: ccdev
+  flyway:
+    enabled: true
+    schemas: royalty_test
+    default-schema: royalty_test
+    create-schemas: true
+    clean-disabled: false
+  sql:
+    init:
+      mode: never
+
+app:
+  settlement:
+    segment-size: 200
+  storage:
+    payment-dir: target/test-data/payment-files
+    receipt-dir: target/test-data/receipts
